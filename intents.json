@@ -1,0 +1,1126 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": [
+        "Hello there, how can I help?",
+        "Hi there, what can I do for you?",
+        "Hello, Nice to meet you. how can I help you?",
+        "Hi! How can I assist you today?",
+        "Hello! What can I do to help you?",
+        "Hey there, how may I assist you?",
+        "Greetings! How can I be of service?",
+        "Hi, nice to meet you! How can I assist you?"
+      ]
+    },
+    
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Goodbye! We can chat again later!",
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Take care! Looking forward to our next chat!",
+        "Catch you later, thanks for stopping by!",
+        "Have a great day!",
+        "Goodbye! Hope to see you again soon.",
+        "Farewell! Feel free to return anytime."
+      ]
+    },
+    
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Glad to assist!",
+        "Always here to help!",
+        "Happy to be of service!",
+        "Delighted to help!",
+        "At your service!"
+      ]
+    },
+
+    {
+      "tag": "ranking",
+      "patterns": [
+        "what about rankings",
+        "How can I find the rankings",
+        "Can you provide a list of the top choices",
+        "What are the best options available",
+        "ranking"
+      ],
+      "responses": [
+        "I have access to university and degree rankings from EDUC. These rankings can help you identify the best options for your studies. Which one do you choose?",
+        "I can provide you with EDUC's university and degree rankings. These rankings will give you a good idea of the top choices available. What option do you pick?",
+        "Using EDUC's rankings for universities and degrees, you can get a clear picture of the best options to consider. Which selection do you make?",
+        "I have the EDUC rankings for universities and degrees, which can guide you in choosing the best programs. What do you decide on?",
+        "You can rely on EDUC's university and degree rankings to determine the best options for your academic pursuits. Which choice do you prefer?",
+        "I have EDUC university rankings and degree rankings. You can get a idea about best option by rankings. What do you select?"
+      ]
+    },
+
+    {
+      "tag": "university ranking",
+      "patterns": [
+        "what about university rankings?", 
+        "How about university rankings?",
+        "What are your thoughts on university rankings?",
+        "Can you tell me about university rankings?",
+        "What information do you have on university rankings?",
+        "How do university rankings look?",
+        "university ranking"
+      ],
+      "responses": [
+        "With EDUC ranking these universities - ESOFT, SLIIT, NSBM, University of Colombo, University of Moratuwa, IIT, ICBT, which would be your top choice?",
+        "Based on EDUC's rankings of ESOFT, SLIIT, NSBM, University of Colombo, University of Moratuwa, IIT, and ICBT, what is your preferred selection?",
+        "Considering EDUC ranks ESOFT, SLIIT, NSBM, University of Colombo, University of Moratuwa, IIT, and ICBT, which one would you choose?",
+        "Given EDUC's university rankings of ESOFT, SLIIT, NSBM, University of Colombo, University of Moratuwa, IIT, and ICBT, which do you select as the best?",
+        "University ranking according to EDUC -  ESOFT, SLIIT, NSBM, University of Colombo, University of Moratuwa, IIT, ICBT. So what is your best selection?",
+        "ESOFT is best university according to EDUC rankings, others are SLIIT, NSBM, University of Colombo, University of Moratuwa, IIT, ICBT. So which one you select?",
+        "According to EDUC's university rankings - ESOFT, SLIIT, NSBM, University of Colombo, University of Moratuwa, IIT, ICBT. Which one do you think is the best?"
+      ]
+    },
+
+    {
+      "tag": "degree ranking",
+      "patterns": [
+        "what about degree rankings?",
+        "How about degree rankings?",
+        "Can you tell me about degree rankings?",
+        "What are your thoughts on degree rankings?",
+        "What information do you have on degree rankings?",
+        "How do the degree rankings look?",
+        "degree ranking"
+      ],
+      "responses": [
+        "With EDUC ranking these degrees - Software Engineering, Computer Networking, Artificial Intelligence, Cyber Security, Data Science, Web Development, and Information Technology, which do you prefer?",
+        "Based on EDUC's rankings of Software Engineering, Computer Networking, Artificial Intelligence, Cyber Security, Data Science, Web Development, and Information Technology, what is your top pick?",
+        "Considering EDUC ranks these degrees - Software Engineering, Computer Networking, Artificial Intelligence, Cyber Security, Data Science, Web Development, and Information Technology, which one do you think is the best?",
+        "Given EDUC's degree rankings of Software Engineering, Computer Networking, Artificial Intelligence, Cyber Security, Data Science, Web Development, and Information Technology, which do you select as the best option?",
+        "Degree ranking according to EDUC - Software Engineering, Computer Networking, Artificial Intelligence, Cyber Security, Data Science, Web Development and Infomation Technology. So what is your best selection?",
+        "Software Engineering degrees are best according to EDUC rankings, and others are Computer Networking, Artificial Intelligence, Cyber Security, Data Science, Web Development and Infomation Technology. So which one you select?",
+        "According to EDUC's degree rankings - Software Engineering, Computer Networking, Artificial Intelligence, Cyber Security, Data Science, Web Development, and Information Technology. Which one would you choose?"
+      ]
+    },
+
+    {
+      "tag": "university",
+      "patterns": [
+        "how can I select a university?",
+        "how can I find a university?",
+        "Where can I search for university?",
+        "Which is better: government or private universities?",
+        "Government or private universities: which one is recommended?",
+        "Are government universities superior to private universities?",
+        "Should I choose a government or private university?",
+        "What are the advantages of government universities compared to private universities?",
+        "what is best between government universities and private universities",
+        "government or private university",
+        "gov or pvt",
+        "university"
+      ],
+      "responses": [
+        "EDUC rankings are a great start! Now you can compare top universities in both government and private sectors. What do you choose?",
+        "Perfect! Use EDUC rankings to see how government and private universities stack up for your interests. Which option do you prefer?",
+        "Great resource! EDUC rankings help you compare top universities, public or private. Choose what fits you best.",
+        "With both government and private options in EDUC rankings, you have choices! Consider your budget and goals.",
+        "EDUC rankings show strong options in both government and private universities. Pick the one that shines brightest for you!",
+        "I have EDUC rankings about best government and private universities. What is your pick?"
+      ]
+    },
+    
+    {
+      "tag": "government university",
+      "patterns": [
+        "Top government university?",
+        "Strongest public university?",
+        "Which government university is highly ranked?",
+        "Recommend a great public university?",
+        "Any advice on the best government university?",
+        "what is best government university?",
+        "government university",
+        "Government University Rankings"
+      ],
+      "responses": [
+        "Considering EDUC rankings say University of Colombo is best for IT, but University of Moratuwa is strong too, which aligns better with your goals?",
+        "While University of Colombo leads in IT rankings, University of Moratuwa shines in tech overall. Is a broader IT focus (Colombo) or a more technical approach (Moratuwa) more appealing?",
+        "EDUC ranks University of Colombo top for IT, but University of Moratuwa boasts a great tech reputation. Have you researched specific programs at each to see which best suits you?",
+        "Tough call! University of Colombo edges University of Moratuwa in IT rankings, but both are strong. Do any specific program aspects or faculty at either university stand out for you?",
+        "EDUC favors University of Colombo for IT, but consider your interests. Do you prefer a more general IT focus (Colombo) or a potentially more specialized approach at University of Moratuwa?",
+        "University of Colombo is best government university according to EDUC rankings, also there is University of Moratuwa. So what is your best selection?",
+        "Government University Rankings - University of Colombo, University of Moratuwa. Which one you select?"
+      ]
+    },
+
+    {
+      "tag": "private university",
+      "patterns": [
+        "Top private university?",
+        "Strongest private university?",
+        "Which private university is highly ranked?",
+        "Recommend a great private university?",
+        "Any advice on the best private university?",
+        "what is best private university?",
+        "private university",
+        "Private University Rankings"
+      ],
+      "responses": [
+        "ESOFT leads in EDUC rankings for IT, but let's explore! Are there specific programs at other universities (SLIIT, NSBM, IIT, ICBT) that interest you more?",
+        "Given ESOFT's top ranking, it's a strong contender. However, it's worth comparing. Do SLIIT, NSBM, IIT, or ICBT offer any unique IT programs or specializations that align with your goals?",
+        "ESOFT excels in IT rankings, but a well-rounded decision is key. How do the other universities (SLIIT, NSBM, IIT, ICBT) compare in terms of career support and industry connections for IT graduates?",
+        "EDUC ranks ESOFT on top, but fit matters! Would attending SLIIT, NSBM, IIT, or ICBT provide a more stimulating learning environment or better suit your learning style?",
+        "Considering EDUC rankings say ESOFT is best for IT, but SLIIT, NSBM, IIT and ICBT are strong too, which aligns better with your goals?",
+        "ESOFT is best private university according to EDUC rankings, others are SLIIT, NSBM, IIT, ICBT. So what is your best selection?",
+        "Private University Rankings - ESOFT, SLIIT, NSBM, IIT, ICBT. Which one you select?"
+      ]
+    },
+
+    {
+      "tag": "university of colombo",
+      "patterns": [
+        "what degrees offer from university of colombo",
+        "How can I find a degree from university of colombo",
+        "What programs does University of Colombo have?",
+        "Can you tell me the areas of study at University of Colombo?",
+        "What are the majors offered by University of Colombo?",
+        "Which degrees can I get at University of Colombo?",
+        "University of Colombo - what are my options for a degree?",
+        "university of colombo degree",
+        "university of colombo"
+      ],
+      "responses": [
+        "University of Colombo has a great line-up! What excites you most: designing software (B.Sc. in Computer Science), using technology for business solutions (B.Sc. in Information Systems), managing IT infrastructure (Bachelor of Information Technology (BIT External)), or analyzing data (B.Sc. in Applied Data Analytics (External))?",
+        "While University of Colombo offers various IT paths, consider your skills. Do you excel at problem-solving and logic (B.Sc. in Computer Science)? Are you drawn to the business side of IT (B.Sc. in Information Systems)? Do you enjoy working with technology systems (Bachelor of Information Technology (BIT External))? Or do you have an analytical mind (B.Sc. in Applied Data Analytics (External))?",
+        "University of Colombo - All these degrees are strong, but future goals matter. Imagine your ideal IT career. Does it involve software development (B.Sc. in Computer Science)? Business technology (B.Sc. in Information Systems)? IT infrastructure management (Bachelor of Information Technology (BIT External))? Or data analysis (B.Sc. in Applied Data Analytics (External))? Choose the program that aligns best with your aspirations.",
+        "University of Colombo offers a wealth of IT expertise! Rather than just rankings, delve deeper. Explore course descriptions for each program (B.Sc. in Computer Science, B.Sc. in Information Systems, Bachelor of Information Technology (BIT External) and B.Sc. in Applied Data Analytics (External)). See which one sparks your curiosity and best equips you for your goals.",
+        "University of Colombo offers top IT degrees as B.Sc. in Computer Science, B.Sc. in Information Systems, Bachelor of Information Technology (BIT External) and B.Sc. in Applied Data Analytics (External). What is your best selection?",
+        "University of Colombo degree offers - B.Sc. in Computer Science, B.Sc. in Information Systems, Bachelor of Information Technology ( BIT External) and B.Sc. in Applied Data Analytics (External). Which one you select?"
+      ]
+    },
+
+    {
+      "tag": "university of moratuwa",
+      "patterns": [
+        "what degrees offer from university of moratuwa",
+        "How can I find a degree from university of moratuwa",
+        "What programs does University of moratuwa have?",
+        "Can you tell me the areas of study at University of moratuwa?",
+        "What are the majors offered by University of moratuwa?",
+        "Which degrees can I get at University of moratuwa?",
+        "University of moratuwa - what are my options for a degree?",
+        "university of moratuwa degree",
+        "university of moratuwa"
+      ],
+      "responses": [
+        "University of Moratuwa has a great selection! What interests you most? The broad IT foundation of B.Sc. (Hons) in Information Technology and Bachelor of Information Technology (BIT External), the business-focused approach of B.Sc. (Hons) in Information Technology and Management, or the cutting-edge world of B.Sc. (Hons) in Artificial Intelligence?",
+        "While University of Moratuwa offers diverse IT options, consider your skillset. Do you enjoy a wide range of IT topics (B.Sc. (Hons) in Information Technology and Bachelor of Information Technology (BIT External)), or are you drawn to the business side of technology (B.Sc. (Hons) in Information Technology and Management)? Perhaps you're fascinated by intelligent systems (B.Sc. (Hons) in Artificial Intelligence)? Pick the program that aligns with your strengths.",
+        "University of Moratuwa - All these degrees are strong, but career aspirations are important. Imagine your dream IT job. Does it involve managing various IT systems (B.Sc. (Hons) in Information Technology and Bachelor of Information Technology (BIT External)), leading technology projects within a company (B.Sc. (Hons) in Information Technology and Management), or developing intelligent systems (B.Sc. (Hons) in Artificial Intelligence)? Choose the program that best prepares you for that future.",
+        "University of Moratuwa provides a range of IT options, but learning style matters too. Do you prefer a broad foundation with various IT subjects (B.Sc. (Hons) in Information Technology and Bachelor of Information Technology (BIT External)), or a focus on combining technology with business (B.Sc. (Hons) in Information Technology and Management)? Perhaps you're drawn to the more theoretical aspects of AI (B.Sc. (Hons) in Artificial Intelligence)? Consider your learning preferences.",
+        "University of Moratuwa boasts a strong IT reputation! Research goes beyond rankings. Look at the specific courses offered in each program (B.Sc. (Hons) in Information Technology, B.Sc. (Hons) in Information Technology and Management, B.Sc. (Hons) in Artificial Intelligence and Bachelor of Information Technology (BIT External)). See which one aligns best with your interests and prepares you for your desired IT career path.",
+        "University of Moratuwa offers few IT degrees as B.Sc. (Hons) in Information Technology, B.Sc. (Hons) in Information Technology and Management, B.Sc. (Hons) in Artificial Intelligence and Bachelor of Information Technology (BIT External). What is your best selection?",
+        "University of Moratuwa degree offers - B.Sc. (Hons) in Information Technology, B.Sc. (Hons) in Information Technology and Management, B.Sc. (Hons) in Artificial Intelligence and Bachelor of Information Technology (BIT External). Which one you select?"
+      ]
+    },
+
+    {
+      "tag": "esoft",
+      "patterns": [
+        "what degrees offer from esoft",
+        "what degrees offer from esoft metro campus",
+        "How can I find a degree from esoft",
+        "What programs does esoft have?",
+        "Can you tell me the areas of study at esoft?",
+        "What are the majors offered by esoft?",
+        "Which degrees can I get at esoft?",
+        "esoft - what are my options for a degree?",
+        "esoft degree",
+        "esoft",
+        "esoft metro campus"
+      ],
+      "responses": [
+        "ESOFT provides a wide range of IT programs! What sparks your passion? Building software (B.Eng. (Hons) in Software Engineering), managing networks (B.Eng. (Hons) in Computer Networking), or a broader IT foundation (B.Sc. (Hons) in Computing and Bachelor of Information Technology (BIT External))? Maybe you're drawn to data analysis (B.Sc. (Hons) in Data Science), cyber security (B.Sc. (Hons) in Cyber Security and B.Eng. (Hons) Cloud Security), or web development (B.Sc. (Hons) in Web & Mobile App Development)? Choose the path that excites you most.",
+        "With so many options at ESOFT, consider your skillset. Do you enjoy problem-solving and logic (B.Eng. (Hons) in Software Engineering, B.Eng. (Hons) in Computer Networking)? Are you analytical (B.Sc. (Hons) in Data Science, B.Sc. (Hons) in Cyber Security and B.Eng. (Hons) Cloud Security)? Broader IT foundation? (B.Sc. (Hons) in Computing and Bachelor of Information Technology (BIT External)) Perhaps you're creative and detail-oriented (B.Sc. (Hons) in Web & Mobile App Development)? Select a program that complements your strengths.",
+        "ESOFT's offerings are all strong, but your future goals matter. Imagine your dream IT job. Does it involve software development (B.Eng. (Hons) in Software Engineering), network administration (B.Eng. (Hons) in Computer Networking), or a versatile IT role (B.Sc. (Hons) in Computing and Bachelor of Information Technology (BIT External))? Maybe you see yourself as a data scientist (B.Sc. (Hons) in Data Science), a cyber security specialist (B.Sc. (Hons) in Cyber Security, B.Eng. (Hons) Cloud Security), or a web developer (B.Sc. (Hons) in Web & Mobile App Development)? Pick the program that best prepares you for your aspirations.",
+        "ESOFT offers a well-rounded IT education! Go beyond just rankings. Research the specific curriculum for each program (B.Eng. (Hons) in Software Engineering, B.Eng. (Hons) in Computer Networking, B.Sc. (Hons) in Computing, B.Sc. (Hons) in Data Science, B.Eng. (Hons) in Cloud Security, B.Sc. (Hons) in Cyber Security, B.Sc. (Hons) in Web & Mobile App Development, Bachelor of Information Technology (BIT External)). See which program aligns best with your interests, strengths, and desired career path.",
+        "ESOFT offers top IT degrees as B.Eng. (Hons) in Software Engineering, B.Eng. (Hons) in Computer Networking, B.Sc. (Hons) in Computing, B.Sc. (Hons) in Data Science, B.Eng. (Hons) in Cloud Security, B.Sc. (Hons) in Cyber Security, B.Sc. (Hons) in Web & Mobile App Development and Bachelor of Information Technology (BIT External). What is your best selection?",
+        "ESOFT degree offers - B.Eng. (Hons) in Software Engineering, B.Eng. (Hons) in Computer Networking, B.Sc. (Hons) in Computing, B.Sc. (Hons) in Data Science, B.Eng. (Hons) in Cloud Security, B.Sc. (Hons) in Cyber Security, B.Sc. (Hons) in Web & Mobile App Development and Bachelor of Information Technology (BIT External). Which one you select?"
+
+      ]
+    },
+
+    {
+      "tag": "sliit",
+      "patterns": [
+        "what degrees offer from sliit",
+        "How can I find a degree from sliit",
+        "What programs does sliit have?",
+        "Can you tell me the areas of study at sliit?",
+        "What are the majors offered by sliit?",
+        "Which degrees can I get at sliit?",
+        "sliit - what are my options for a degree?",
+        "sliit degree",
+        "sliit"
+      ],
+      "responses": [
+        "SLIIT provides a wide range of IT programs! What sparks your passion? Building software (B.Sc. (Hons) in Software Engineering), managing networks (B.Sc. (Hons) in Network Engineering), Maybe you're drawn to data analysis (B.Sc. (Hons) in Data Science), cyber security (B.Sc. (Hons) in Cyber Security). Choose the path that excites you most.",
+        "With so many options at SLIIT , consider your skillset. Do you enjoy problem-solving and logic (B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Network Engineering)? Are you analytical (B.Sc. (Hons) in Data Science, B.Sc. (Hons) in Cyber Security)? Select a program that complements your strengths.",
+        "SLIIT's offerings are all strong, but your future goals matter. Imagine your dream IT job. Does it involve software development (B.Sc. (Hons) in Software Engineering), network administration (B.Sc. (Hons) in Network Engineering), Maybe you see yourself as a data scientist (B.Sc. (Hons) in Data Science), a cyber security specialist (B.Sc. (Hons) in Cyber Security). Pick the program that best prepares you for your aspirations.",
+        "SLIIT offers a well-rounded IT education! Go beyond just rankings. Research the specific curriculum for each program (B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Network Engineering, B.Sc. (Hons) in Data Science, B.Sc. (Hons) in Cyber Security). See which program aligns best with your interests, strengths, and desired career path.",
+        "SLIIT offers top IT degrees as B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Network Engineering, B.Sc (Hons) in Data Science and B.Sc. (Hons) in Cyber Security. What is your best selection?",
+        "SLIIT degree offers - B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Network Engineering, B.Sc (Hons) in Data Science and B.Sc. (Hons) in Cyber Security. Which one you select?"
+      ]
+    },
+
+    {
+      "tag": "nsbm",
+      "patterns": [
+        "what degrees offer from nsbm",
+        "what degrees offer from green university",
+        "How can I find a degree from nsbm",
+        "What programs does nsbm have?",
+        "Can you tell me the areas of study at nsbm?",
+        "What are the majors offered by nsbm?",
+        "Which degrees can I get at nsbm?",
+        "nsbm - what are my options for a degree?",
+        "nsbm degree",
+        "green university",
+        "nsbm"
+      ],
+      "responses": [
+        "NSBM provides a wide range of IT programs! What sparks your passion? Building software (B.Sc. (Hons) in Software Engineering), managing networks (B.Sc. (Hons) in Computer Networks), Maybe you're drawn to data analysis (B.Sc. (Hons) in Data Science). Choose the path that excites you most.",
+        "With so many options at NSBM, consider your skillset. Do you enjoy problem-solving and logic (B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Computer Networks)? Are you analytical (B.Sc. (Hons) in Data Science)? Select a program that complements your strengths.",
+        "NSBM's offerings are all strong, but your future goals matter. Imagine your dream IT job. Does it involve software development (B.Sc. (Hons) in Software Engineering), network administration (B.Sc. (Hons) in Computer Networks), Maybe you see yourself as a data scientist (B.Sc. (Hons) in Data Science). Pick the program that best prepares you for your aspirations.",
+        "NSBM offers a well-rounded IT education! Go beyond just rankings. Research the specific curriculum for each program (B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Computer Networks, B.Sc. (Hons) in Data Science). See which program aligns best with your interests, strengths, and desired career path.",
+        "NSBM offers top IT degrees as B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Computer Networks and B.Sc (Hons) in Data Science. What is your best selection?",
+        "NSBM degree offers - B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Computer Networks and B.Sc (Hons) in Data Science. Which one you select?"
+
+      ]
+    },
+
+    {
+      "tag": "iit",
+      "patterns": [
+        "what degrees offer from iit",
+        "How can I find a degree from iit",
+        "What programs does iit have?",
+        "Can you tell me the areas of study at iit?",
+        "What are the majors offered by iit?",
+        "Which degrees can I get at iit?",
+        "iit - what are my options for a degree?",
+        "iit degree",
+        "iit"
+      ],
+      "responses": [
+        "IIT provides a wide range of IT programs! What sparks your passion? Building software (B.Eng. (Hons) in Software Engineering), or a broader IT foundation (B.Sc. (Hons) in Computer Science)? Maybe you're drawn to data analysis (B.Sc. (Hons) in Artificial Intelligence). Choose the path that excites you most.",
+        "With so many options at IIT, consider your skillset. Do you enjoy problem-solving and logic (B.Eng. (Hons) in Software Engineering)? Are you analytical (B.Sc. (Hons) in Artificial Intelligence)? Broader IT foundation? (B.Sc. (Hons) in Computer Science). Select a program that complements your strengths.",
+        "IIT's offerings are all strong, but your future goals matter. Imagine your dream IT job. Does it involve software development (B.Eng. (Hons) in Software Engineering), or a versatile IT role (B.Sc. (Hons) in Computer Science)? Maybe you see yourself as a data scientist (B.Sc. (Hons) in Artificial Intelligence) Pick the program that best prepares you for your aspirations.",
+        "IIT offers a well-rounded IT education! Go beyond just rankings. Research the specific curriculum for each program (B.Eng. (Hons) in Software Engineering, B.Sc. (Hons) in Computer Science, B.Sc. (Hons) in Artificial Intelligence). See which program aligns best with your interests, strengths, and desired career path.",
+        "IIT offers top few degrees as B.Eng. (Hons) in Software Engineering, B.Sc. (Hons) in Computer Science, B.Sc. (Hons) in Artificial Intelligence. What is your best selection?",
+        "IIT degree offers - B.Eng. (Hons) in Software Engineering, B.Sc. (Hons) in Computer Science, B.Sc. (Hons) in Artificial Intelligence. Which one you select?"
+      ]
+    },
+
+    {
+      "tag": "icbt",
+      "patterns": [
+        "what degrees offer from icbt",
+        "How can I find a degree from icbt",
+        "What programs does icbt have?",
+        "Can you tell me the areas of study at icbt?",
+        "What are the majors offered by icbt?",
+        "Which degrees can I get at icbt?",
+        "icbt - what are my options for a degree?",
+        "icbt degree",
+        "icbt"
+      ],
+      "responses": [
+        "ICBT provides a wide range of IT programs! What sparks your passion? Building software (B.Sc. (Hons) in Software Engineering), managing networks (B.Sc. (Hons) in Network Engineering), Maybe you're drawn to data analysis (B.Sc. (Hons) in Data Science). Choose the path that excites you most.",
+        "With so many options at ICBT, consider your skillset. Do you enjoy problem-solving and logic (B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Network Engineering)? Are you analytical (B.Sc. (Hons) in Data Science)? Select a program that complements your strengths.",
+        "ICBT's offerings are all strong, but your future goals matter. Imagine your dream IT job. Does it involve software development (B.Sc. (Hons) in Software Engineering), network administration (B.Sc. (Hons) in Network Engineering), Maybe you see yourself as a data scientist (B.Sc. (Hons) in Data Science). Pick the program that best prepares you for your aspirations.",
+        "ICBT offers a well-rounded IT education! Go beyond just rankings. Research the specific curriculum for each program (B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Network Engineering, B.Sc. (Hons) in Data Science). See which program aligns best with your interests, strengths, and desired career path.",
+        "ICBT offers top IT degrees as B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Network Engineering and B.Sc (Hons) in Data Science. What is your best selection?",
+        "ICBT degree offers - B.Sc. (Hons) in Software Engineering, B.Sc. (Hons) in Network Engineering and B.Sc (Hons) in Data Science. Which one you select?"
+      ]
+    },
+
+    {
+      "tag": "degree",
+      "patterns": [
+        "what about IT degree?",
+        "how can I select a degree?",
+        "Where can I search for degree programs?",
+        "How do I go about finding the right degree for me?",
+        "What resources are available to help me explore degree options?",
+        "What are some steps I can take to identify the best degree program?",
+        "I'm interested in getting a degree. How can I find programs that fit my needs?",
+        "degree"
+      ],
+      "responses": [
+        "EDUC's rankings on 'Best Degrees' and 'Trending Degrees' are a great starting point. But remember, your learning style and preferred program format are also important. Which factors are most crucial for you?",
+        "EDUC provides rankings for both 'Best Degrees' and 'Trending Degrees' - that's fantastic! Rankings are helpful. Which one best utilizes your talents and interests?",
+        "EDUC rankings offer valuable data on 'Best Degrees' and 'Trending Degrees'. Beyond rankings though, consider your future career goals. Which one best aligns with you?",
+        "EDUC rankings provide insight into both 'Best Degrees' and 'Trending Degrees'. While rankings are helpful, what specific area of IT interests you most? Knowing your preference can help narrow down the options.",
+        "Great! You have info on both 'Best Degrees' and 'Trending Degrees' (thanks to EDUC). However, your interests matter too! What kind of IT work are you drawn to? Let's use that to pick the best fit.",
+        "I have details of EDUC ranking about best degrees and trending degrees. You can get a idea about best option by rankings. What do you select?"
+      ]
+    },
+
+    {
+      "tag": "best degree",
+      "patterns": [
+        "what is best degree?",
+        "Which degree offers the most career opportunities?",
+        "What degree aligns best with the future of the industry?",
+        "I'm interested in IT, What degree is a good fit?",
+        "Is there a specific degree known for its strong return on investment (ROI)?",
+        "Help me find a challenging and rewarding degree program!",
+        "best degree"
+      ],
+      "responses": [
+        "While EDUC ranks Software Engineering on top, your interests are key! What area of IT excites you most? Network Engineering, Artificial Intelligence, Cyber Security, Data Science, Web Development and Information Technology? Let's pick the degree that aligns best with your passion.",
+        "EDUC highlights Software Engineering, but consider your skills. Do you enjoy problem-solving and building systems (Software Engineering), or are you drawn to network infrastructure (Network Engineering), securing systems (Cyber Security), analyzing data (Artificial Intelligence,  Data Science), creating websites (Web Development), or managing IT systems (Information Technology)?",
+        "Software Engineering leads the pack according to EDUC, but there's more to the story. Think about your future career goals. Which of these degrees (Network Engineering, Artificial Intelligence, Cyber Security, Data Science, Web Development, Information Technology) best aligns with the type of work you envision for yourself?",
+        "Great job researching EDUC rankings! Software Engineering might be the top dog, but it's important to consider your personal strengths. Are you analytical (Artificial Intelligence, Data Science, Cyber Security), creative (Web Development), detail-oriented (Network Engineering), or enjoy working with big-picture concepts (Software Engineering, Information Technology)? Choose a degree that leverages your talents.",
+        "Software Engineering degrees are best according to EDUC rankings, and other best options are Network Engineering, Artificial Intelligence, Cyber Security, Data Science, Web Development and Information Technology. So what is your best selection?",
+        "Best Degrees - Software Engineering, Network Engineering, Artificial Intelligence, Cyber Security, Data Science, Web Development, Information Technology. So which one you select?"
+      ]
+    },
+
+    {
+      "tag": "trending degree",
+      "patterns": [
+        "what is trending degree?",
+        "What degrees are hottest in the IT industry right now?",
+        "Which IT fields are experiencing the most growth?",
+        "What are the trending IT degrees to watch?",
+        "What IT skills are in high demand for the future?",
+        "What's hot in IT education these days?",
+        "trending degree"
+      ],
+      "responses": [
+        "Artificial Intelligence is the hot topic, but what piques your interest? Do you crave uncovering insights from data (Data Science) or are you drawn to building secure systems (Cyber Security), crafting software (Software Engineering), managing networks (Network Engineering), creating websites (Web Development), or overseeing IT infrastructure (Information Technology)? Choose the path that excites you!",
+        "EDUC spotlights Artificial Intelligence, but consider your skillset. Do you excel at analysis (Data Science) or do you enjoy problem-solving (Software Engineering), securing systems (Cyber Security), building networks (Network Engineering), designing websites (Web Development), or managing IT systems (Information Technology)? Pick a degree that complements your strengths.",
+        "Artificial Intelligence is trending, but future goals matter. Which of these fields aligns best with your career aspirations (Data Science, Cyber Security, Software Engineering, Network Engineering, Web Development, Information Technology)? Pick the degree that paves the way for your dream job.",
+        "Great research on EDUC rankings! Artificial Intelligence may be trending, but self-discovery is key. Are you analytical (Data Science, Cyber Security) or creative (Web Development)? Detail-oriented (Network Engineering, Information Technology) or a big-picture thinker (Software Engineering)? Select a degree that utilizes your natural talents.",
+        "There are highly trending now for Artificial Intelligence degrees according to EDUC rankings, and other trending are Data Science, Cyber Security, Software Engineering, Network Engineering, Web Development and Information Technology. So what is your best selection?",
+        "Trending degree - Artificial Intelligence, Data Science, Cyber Security, Software Engineering, Network Engineering, Web Development, Infomation Technology. So which one you select?"
+      ]
+    },
+
+    {
+      "tag": "software engineering",
+      "patterns": [
+        "Tell me about software engineering degrees.",
+        "Tell me list of software engineering degrees.",
+        "List some software engineering degrees for me.",
+        "What are the software engineering degrees?",
+        "What are the types of software engineering degrees available?",
+        "What software engineering programs can I find?",
+        "What are my options for a software engineering degree?",
+        "Can you tell me the different software engineering degrees?",
+        "What specific software engineering programs do universities offer?",
+        "Can you list some specializations within software engineering degrees?",
+        "software engineering",
+        "software",
+        "se"
+      ],
+      "responses": [
+        "EDUC ranks ESOFT - B.Eng. (Hons) in Software Engineering degree highest, but SLIIT - B.Sc. (Hons) in Software Engineering | NSBM - B.Sc. (Hons) in Software Engineering | IIT - B.Eng. (Hons) in Software Engineering | ICBT - B.Sc. (Hons) in Software Engineering degrees are strong contenders too. Consider factors beyond rankings, like program focus and cost, to find your perfect fit. Which option excites you most?",
+        "Looking for a top-ranked Software Engineering Degree? EDUC places ESOFT - B.Eng. (Hons) in Software Engineering degree at the forefront, but SLIIT - B.Sc. (Hons) in Software Engineering | NSBM - B.Sc. (Hons) in Software Engineering | IIT - B.Eng. (Hons) in Software Engineering | ICBT - B.Sc. (Hons) in Software Engineering degrees also offer excellent options. Explore all three to find the program that aligns with your goals. Tough call, but which way do you lean?",
+        "EDUC highlights ESOFT - B.Eng. (Hons) in Software Engineering degree for SE, but don't overlook SLIIT - B.Sc. (Hons) in Software Engineering | NSBM - B.Sc. (Hons) in Software Engineering | IIT - B.Eng. (Hons) in Software Engineering | ICBT - B.Sc. (Hons) in Software Engineering degrees! Research each program's curriculum, faculty, and career support to make an informed decision. What's your pick?",
+        "While EDUC ranks ESOFT - B.Eng. (Hons) in Software Engineering degree highly, a great fit goes beyond rankings. Consider your learning style and career aspirations when comparing SLIIT - B.Sc. (Hons) in Software Engineering | NSBM - B.Sc. (Hons) in Software Engineering | IIT - B.Eng. (Hons) in Software Engineering | ICBT - B.Sc. (Hons) in Software Engineering degrees. Which would you go for?",
+        "ESOFT - B.Eng. (Hons) in Software Engineering degree takes the top spot in EDUC's SE ranking, but the choice is yours! Explore the unique strengths of SLIIT - B.Sc. (Hons) in Software Engineering | NSBM - B.Sc. (Hons) in Software Engineering | IIT - B.Eng. (Hons) in Software Engineering | ICBT - B.Sc. (Hons) in Software Engineering degrees to find the degree that best equips you for success. What sounds most appealing?",
+        "ESOFT - B.Eng. (Hons) in Software Engineering is best SE degree according to EDUC rankings, and others are SLIIT - B.Sc. (Hons) in Software Engineering | NSBM - B.Sc. (Hons) in Software Engineering | IIT - B.Eng. (Hons) in Software Engineering | ICBT - B.Sc. (Hons) in Software Engineering. Which one you select?",
+        "ESOFT - B.Eng. (Hons) in Software Engineering | SLIIT - B.Sc. (Hons) in Software Engineering | NSBM - B.Sc. (Hons) in Software Engineering | IIT - B.Eng. (Hons) in Software Engineering | ICBT - B.Sc. (Hons) in Software Engineering. What is your best selection?"
+      ]
+    },
+
+    {
+      "tag": "network engineering",
+      "patterns": [
+        "Tell me about network engineering degrees.",
+        "Tell me list of network engineering degrees.",
+        "List some network engineering degrees for me.",
+        "What are the network engineering degrees?",
+        "What are the types of network engineering degrees available?",
+        "What network engineering programs can I find?",
+        "What are my options for a network engineering degree?",
+        "Can you tell me the different network engineering degrees?",
+        "What specific network engineering programs do universities offer?",
+        "Can you list some specializations within network engineering degrees?",
+        "network engineering",
+        "network",
+        "ne"
+      ],
+      "responses": [
+        "EDUC ranks ESOFT -  B.Eng. (Hons) in Computer Networking degree highest, but SLIIT - B.Sc. (Hons) in Network Engineering | NSBM - B.Sc. (Hons) in Computer Networks | ICBT - B.Sc. (Hons) in Network Engineering degrees are strong contenders too. Consider factors beyond rankings, like program focus and cost, to find your perfect fit. Which option excites you most?",
+        "Looking for a top-ranked Network Engineering Degree? EDUC places ESOFT - B.Eng. (Hons) in Computer Networking degree at the forefront, but SLIIT - B.Sc. (Hons) in Network Engineering | NSBM - B.Sc. (Hons) in Computer Networks | ICBT - B.Sc. (Hons) in Network Engineering degrees also offer excellent options. Explore all three to find the program that aligns with your goals. Tough call, but which way do you lean?",
+        "EDUC highlights ESOFT - B.Eng. (Hons) in Computer Networking degree for NE, but don't overlook SLIIT - B.Sc. (Hons) in Network Engineering | NSBM - B.Sc. (Hons) in Computer Networks | ICBT - B.Sc. (Hons) in Network Engineering degrees! Research each program's curriculum, faculty, and career support to make an informed decision. What's your pick?",
+        "While EDUC ranks ESOFT - B.Eng. (Hons) in Computer Networking degree highly, a great fit goes beyond rankings. Consider your learning style and career aspirations when comparing SLIIT - B.Sc. (Hons) in Network Engineering | NSBM - B.Sc. (Hons) in Computer Networks | ICBT - B.Sc. (Hons) in Network Engineering degrees. Which would you go for?",
+        "ESOFT - B.Eng. (Hons) in Computer Networking degree takes the top spot in EDUC's NE ranking, but the choice is yours! Explore the unique strengths of SLIIT - B.Sc. (Hons) in Network Engineering | NSBM - B.Sc. (Hons) in Computer Networks | ICBT - B.Sc. (Hons) in Network Engineering degrees to find the degree that best equips you for success. What sounds most appealing?",
+        "ESOFT - B.Eng. (Hons) in Computer Networking is best NE degree according to EDUC rankings, and others are SLIIT - B.Sc. (Hons) in Network Engineering | NSBM - B.Sc. (Hons) in Computer Networks | ICBT - B.Sc. (Hons) in Network Engineering. Which one you select?",
+        "ESOFT - B.Eng. (Hons) in Computer Networking | SLIIT - B.Sc. (Hons) in Network Engineering | NSBM - B.Sc. (Hons) in Computer Networks | ICBT - B.Sc. (Hons) in Network Engineering. What is your best selection?"
+      ]
+    },
+
+    {
+      "tag": "artificial intelligence",
+      "patterns": [
+        "Tell me about artificial intelligence degrees.",
+        "Tell me list of artificial intelligence degrees.",
+        "List some artificial intelligence degrees for me.",
+        "What are the artificial intelligence degrees?",
+        "What are the types of artificial intelligence degrees available?",
+        "What artificial intelligence programs can I find?",
+        "What are my options for a artificial intelligence degree?",
+        "Can you tell me the different artificial intelligence degrees?",
+        "What specific artificial intelligence programs do universities offer?",
+        "Can you list some specializations within artificial intelligence degrees?",
+        "artificial intelligence",
+        "artificial",
+        "intelligence",
+        "ai"
+      ],
+      "responses": [
+        "EDUC ranks University of Moratuwa - B.Sc. (Hons) in Artificial Intelligence degree highest, but IIT - B.Sc. (Hons) in Artificial Intelligence degree is strong contenders too. Consider factors beyond rankings, like program focus and cost, to find your perfect fit. Which option excites you most?",
+        "Looking for a top-ranked Artificial Intelligence Degree? EDUC places University of Moratuwa - B.Sc. (Hons) in Artificial Intelligence degree at the forefront, but IIT - B.Sc. (Hons) in Artificial Intelligence degree also offer excellent options. Explore all three to find the program that aligns with your goals. Tough call, but which way do you lean?",
+        "EDUC highlights University of Moratuwa - B.Sc. (Hons) in Artificial Intelligence degree for AI, but don't overlook IIT - B.Sc. (Hons) in Artificial Intelligence | ICBT - B.Sc (Hons) in Data Science degree! Research each program's curriculum, faculty, and career support to make an informed decision. What's your pick?",
+        "While EDUC ranks University of Moratuwa - B.Sc. (Hons) in Artificial Intelligence degree highly, a great fit goes beyond rankings. Consider your learning style and career aspirations when comparing IIT - B.Sc. (Hons) in Artificial Intelligence degree. Which would you go for?",
+        "University of Moratuwa - B.Sc. (Hons) in Artificial Intelligence degree takes the top spot in EDUC's AI ranking, but the choice is yours! Explore the unique strengths of IIT - B.Sc. (Hons) in Artificial Intelligence degree to find the degree that best equips you for success. What sounds most appealing?",
+        "University of Moratuwa - B.Sc. (Hons) in Artificial Intelligence is best AI degree according to EDUC rankings, and also there is IIT - B.Sc. (Hons) in Artificial Intelligence. Which one you select?",
+        "University of Moratuwa - B.Sc. (Hons) in Artificial Intelligence | IIT - B.Sc. (Hons) in Artificial Intelligence. What is your best selection?"
+      ]
+    },
+
+    {
+      "tag": "cyber security",
+      "patterns": [
+        "Tell me about cyber security degrees.",
+        "Tell me list of cyber security degrees.",
+        "List some cyber security degrees for me.",
+        "What are the cyber security degrees?",
+        "What are the types of cyber security degrees available?",
+        "What cyber security programs can I find?",
+        "What are my options for a cyber security degree?",
+        "Can you tell me the different cyber security degrees?",
+        "What specific cyber security programs do universities offer?",
+        "Can you list some specializations within cyber security degrees?",
+        "cyber security",
+        "cyber",
+        "security",
+        "cs"
+      ],
+      "responses": [
+        "EDUC ranks ESOFT - B.Sc. (Hons) in Cyber Security degree highest, but ESOFT - B.Eng. (Hons) in Cloud Security | SLIIT - B.Sc. (Hons) in Cyber Security degrees are strong contenders too. Consider factors beyond rankings, like program focus and cost, to find your perfect fit. Which option excites you most?",
+        "Looking for a top-ranked Cyber Security Degree? EDUC places ESOFT - B.Sc. (Hons) in Cyber Security degree at the forefront, but ESOFT - B.Eng. (Hons) in Cloud Security | SLIIT - B.Sc. (Hons) in Cyber Security degrees also offer excellent options. Explore all three to find the program that aligns with your goals. Tough call, but which way do you lean?",
+        "EDUC highlights ESOFT - B.Sc. (Hons) in Cyber Security degree for CS, but don't overlook ESOFT - B.Eng. (Hons) in Cloud Security | SLIIT - B.Sc. (Hons) in Cyber Security degrees! Research each program's curriculum, faculty, and career support to make an informed decision. What's your pick?",
+        "While EDUC ranks ESOFT - B.Sc. (Hons) in Cyber Security degree highly, a great fit goes beyond rankings. Consider your learning style and career aspirations when comparing ESOFT - B.Eng. (Hons) in Cloud Security | SLIIT - B.Sc. (Hons) in Cyber Security degrees. Which would you go for?",
+        "ESOFT - B.Sc. (Hons) in Cyber Security degree takes the top spot in EDUC's CS ranking, but the choice is yours! Explore the unique strengths of ESOFT - B.Eng. (Hons) in Cloud Security | SLIIT - B.Sc. (Hons) in Cyber Security degrees to find the degree that best equips you for success. What sounds most appealing?",
+        "ESOFT - B.Sc. (Hons) in Cyber Security is best CS degree according to EDUC rankings, and others are ESOFT - B.Eng. (Hons) in Cloud Security | SLIIT - B.Sc. (Hons) in Cyber Security. Which one you select?",
+        "ESOFT - B.Sc. (Hons) in Cyber Security | ESOFT - B.Eng. (Hons) in Cloud Security | SLIIT - B.Sc. (Hons) in Cyber Security. What is your best selection?"
+      ]
+    },
+
+    {
+      "tag": "data science",
+      "patterns": [
+        "Tell me about data science degrees.",
+        "Tell me list of data science degrees.",
+        "List some data science degrees for me.",
+        "What are the data science degrees?",
+        "What are the types of data science degrees available?",
+        "What data science programs can I find?",
+        "What are my options for a data science degree?",
+        "Can you tell me the different data science degrees?",
+        "What specific data science programs do universities offer?",
+        "Can you list some specializations within data science degrees?",
+        "data science",
+        "data",
+        "science",
+        "ds"
+      ],
+      "responses": [
+        "EDUC ranks ESOFT - B.Sc. (Hons) in Data Science degree highest, but University of Colombo - B.Sc. in Applied Data Analytics (External) | SLIIT - B.Sc (Hons) in Data Science | NSBM - B.Sc (Hons) in Data Science | ICBT - B.Sc (Hons) in Data Science degrees are strong contenders too. Consider factors beyond rankings, like program focus and cost, to find your perfect fit. Which option excites you most?",
+        "Looking for a top-ranked Data Science Degree? EDUC places ESOFT - B.Sc. (Hons) in Data Science degree at the forefront, but University of Colombo - B.Sc. in Applied Data Analytics (External) | SLIIT - B.Sc (Hons) in Data Science | NSBM - B.Sc (Hons) in Data Science | ICBT - B.Sc (Hons) in Data Science degrees also offer excellent options. Explore all three to find the program that aligns with your goals. Tough call, but which way do you lean?",
+        "EDUC highlights ESOFT - B.Sc. (Hons) in Data Science degree for DS, but don't overlook University of Colombo - B.Sc. in Applied Data Analytics (External) | SLIIT - B.Sc (Hons) in Data Science | NSBM - B.Sc (Hons) in Data Science | ICBT - B.Sc (Hons) in Data Science degrees! Research each program's curriculum, faculty, and career support to make an informed decision. What's your pick?",
+        "While EDUC ranks ESOFT - B.Sc. (Hons) in Data Science degree highly, a great fit goes beyond rankings. Consider your learning style and career aspirations when comparing University of Colombo - B.Sc. in Applied Data Analytics (External) | SLIIT - B.Sc (Hons) in Data Science | NSBM - B.Sc (Hons) in Data Science | ICBT - B.Sc (Hons) in Data Science degrees. Which would you go for?",
+        "ESOFT - B.Sc. (Hons) in Data Science degree takes the top spot in EDUC's DS ranking, but the choice is yours! Explore the unique strengths of University of Colombo - B.Sc. in Applied Data Analytics (External) | SLIIT - B.Sc (Hons) in Data Science | NSBM - B.Sc (Hons) in Data Science | ICBT - B.Sc (Hons) in Data Science degrees to find the degree that best equips you for success. What sounds most appealing?",
+        "ESOFT - B.Sc. (Hons) in Data Science is best DS degree according to EDUC rankings, and others are University of Colombo - B.Sc. in Applied Data Analytics (External) | SLIIT - B.Sc (Hons) in Data Science | NSBM - B.Sc (Hons) in Data Science | ICBT - B.Sc (Hons) in Data Science. Which one you select?",
+        "ESOFT - B.Sc. (Hons) in Data Science | University of Colombo - B.Sc. in Applied Data Analytics (External) | SLIIT - B.Sc (Hons) in Data Science | NSBM - B.Sc (Hons) in Data Science | ICBT - B.Sc (Hons) in Data Science. What is your best selection?"
+      ]
+    },
+
+    {
+      "tag": "web development",
+      "patterns": [
+        "Tell me about web development degrees.",
+        "Tell me list of web development degrees.",
+        "List some web development degrees for me.",
+        "What are the web development degrees?",
+        "What are the types of web development degrees available?",
+        "What web development programs can I find?",
+        "What are my options for a web development degree?",
+        "Can you tell me the different web development degrees?",
+        "What specific web development programs do universities offer?",
+        "Can you list some specializations within web development degrees?",
+        "web development",
+        "web",
+        "development",
+        "wd"
+      ],
+      "responses": [
+        "ESOFT's B.Sc. (Hons) in Web & Mobile App Development degree is best WD degree according to EDUC rankings. Web and Mobile App Development degree is revamped degree for aspiring developers to gain advanced web and mobile app development skills. This course offers a core in Mobile App Development and Software practices, with electives in Programming Patterns, Data Modeling, Cyber Security, and Entrepreneurship. To follow requires GCE O/L or A/L English pass + a relevant IT diploma (Pearson BTEC HND, BCS, NCC IAD). | Next batch start - 2024-09-15 | 5 more seats available | Course Fee - LKR 430,000 + University Fee USD 900 | more details - https://esoft.lk/esoft-courses/bsc-hons-computing-science-in-web-mobile-app-development-top-up-kingston-university/",
+        "Aspiring web and mobile developers, this is your chance! ESOFT's B.Sc. (Hons) in Web & Mobile App Development, ranked the best WD degree by EDUC, is accepting applications for the September 2024 intake. With only 5 seats remaining, this revamped program equips you with advanced development skills through a strong foundation in Mobile App Development and Software practices, alongside electives in in-demand areas like Programming Patterns, Data Modeling, Cyber Security, and Entrepreneurship. Entry requirements include a pass in GCE O/L or A/L English and a relevant IT diploma (Pearson BTEC HND, BCS, NCC IAD). Secure your spot for LKR 430,000 (course fee) + USD 900 (university fee). | more details - https://esoft.lk/esoft-courses/bsc-hons-computing-science-in-web-mobile-app-development-top-up-kingston-university/"
+      ]
+    },
+
+    {
+      "tag": "infomation technology",
+      "patterns": [
+        "Tell me about infomation technology degrees.",
+        "Tell me list of infomation technology degrees.",
+        "List some infomation technology degrees for me.",
+        "What are the infomation technology degrees?",
+        "What are the types of infomation technology degrees available?",
+        "What infomation technology programs can I find?",
+        "What are my options for a infomation technology degree?",
+        "Can you tell me the different infomation technology degrees?",
+        "What specific infomation technology programs do universities offer?",
+        "Can you list some specializations within infomation technology degrees?",
+        "infomation technology",
+        "infomation",
+        "technology",
+        "it"
+      ],
+      "responses": [
+        "EDUC ranks ESOFT - B.Sc. (Hons) in Computing degree highest, but University of Colombo - B.Sc. in Computer Science | University of Colombo - B.Sc. in Information Systems | University of Moratuwa - B.Sc. (Hons) in Information Technology | University of Moratuwa - B.Sc. (Hons) in Information Technology and Management | University of Colombo - Bachelor of Information Technology ( BIT External) | University of Moratuwa - Bachelor of Information Technology (BIT External) | ESOFT - Bachelor of Information Technology (BIT External) | IIT - B.Sc. (Hons) in Computer Science degrees are strong contenders too. Consider factors beyond rankings, like program focus and cost, to find your perfect fit. Which option excites you most?",
+        "Looking for a top-ranked Infomation Technology Degree? EDUC places ESOFT - B.Sc. (Hons) in Computing degree at the forefront, but University of Colombo - B.Sc. in Computer Science | University of Colombo - B.Sc. in Information Systems | University of Moratuwa - B.Sc. (Hons) in Information Technology | University of Moratuwa - B.Sc. (Hons) in Information Technology and Management | University of Colombo - Bachelor of Information Technology ( BIT External) | University of Moratuwa - Bachelor of Information Technology (BIT External) | ESOFT - Bachelor of Information Technology (BIT External) | IIT - B.Sc. (Hons) in Computer Science degrees also offer excellent options. Explore all three to find the program that aligns with your goals. Tough call, but which way do you lean?",
+        "EDUC highlights ESOFT - B.Sc. (Hons) in Computing degree for IT, but don't overlook University of Colombo - B.Sc. in Computer Science | University of Colombo - B.Sc. in Information Systems | University of Moratuwa - B.Sc. (Hons) in Information Technology | University of Moratuwa - B.Sc. (Hons) in Information Technology and Management | University of Colombo - Bachelor of Information Technology ( BIT External) | University of Moratuwa - Bachelor of Information Technology (BIT External) | ESOFT - Bachelor of Information Technology (BIT External) | IIT - B.Sc. (Hons) in Computer Science degrees! Research each program's curriculum, faculty, and career support to make an informed decision. What's your pick?",
+        "While EDUC ranks ESOFT - B.Sc. (Hons) in Computing degree highly, a great fit goes beyond rankings. Consider your learning style and career aspirations when comparing University of Colombo - B.Sc. in Computer Science | University of Colombo - B.Sc. in Information Systems | University of Moratuwa - B.Sc. (Hons) in Information Technology | University of Moratuwa - B.Sc. (Hons) in Information Technology and Management | University of Colombo - Bachelor of Information Technology ( BIT External) | University of Moratuwa - Bachelor of Information Technology (BIT External) | ESOFT - Bachelor of Information Technology (BIT External) | IIT - B.Sc. (Hons) in Computer Science degrees. Which would you go for?",
+        "ESOFT - B.Sc. (Hons) in Computing degree takes the top spot in EDUC's IT ranking, but the choice is yours! Explore the unique strengths of University of Colombo - B.Sc. in Computer Science | University of Colombo - B.Sc. in Information Systems | University of Moratuwa - B.Sc. (Hons) in Information Technology | University of Moratuwa - B.Sc. (Hons) in Information Technology and Management | University of Colombo - Bachelor of Information Technology ( BIT External) | University of Moratuwa - Bachelor of Information Technology (BIT External) | ESOFT - Bachelor of Information Technology (BIT External) | IIT - B.Sc. (Hons) in Computer Science degrees to find the degree that best equips you for success. What sounds most appealing?",
+        "ESOFT - B.Sc. (Hons) in Computing is best IT degree according to EDUC rankings, and others are University of Colombo - B.Sc. in Computer Science | University of Colombo - B.Sc. in Information Systems | University of Moratuwa - B.Sc. (Hons) in Information Technology | University of Moratuwa - B.Sc. (Hons) in Information Technology and Management | University of Colombo - Bachelor of Information Technology ( BIT External) | University of Moratuwa - Bachelor of Information Technology (BIT External) | ESOFT - Bachelor of Information Technology (BIT External) | IIT - B.Sc. (Hons) in Computer Science. Which one you select?",
+        "ESOFT - B.Sc. (Hons) in Computing | University of Colombo - B.Sc. in Computer Science | University of Colombo - B.Sc. in Information Systems | University of Moratuwa - B.Sc. (Hons) in Information Technology | University of Moratuwa - B.Sc. (Hons) in Information Technology and Management | University of Colombo - Bachelor of Information Technology ( BIT External) | University of Moratuwa - Bachelor of Information Technology (BIT External) | ESOFT - Bachelor of Information Technology (BIT External) | IIT - B.Sc. (Hons) in Computer Science. What is your best selection?"
+      ]
+    },
+
+    {
+      "tag": "colombo computer science",
+      "patterns": [
+        "does university of colombo offer a computer science degree?",
+        "Is there a computer science degree at university of colombo?",
+        "can I study computer science at university of colombo?",
+        "ucsc colombo - computer science degree?",
+        "university of colombo - computer science degree?",
+        "university of colombo computer science",
+        "colombo computer science",
+        "colombo cs"
+      ],
+      "responses": [
+        "University of Colombo - B.Sc. in Computer Science - The University of Colombo School of Computing offers a four-year Computer Science Honours program (B.Sc. Hons) for students who excel in the first two years of their general computer science degree. This selective program allows high-performing students to specialize further in their chosen field. | more details - https://ucsc.cmb.ac.lk/ug-computer-science/?_gl=1*8fdqfq*_ga*MTgyNzI3OTU5Ni4xNzE2NjE0MzY3*_ga_9NP480MYRZ*MTcxNzA3NjUzOS43LjEuMTcxNzA3NjU1MC40OS4wLjA.",
+        "University of Colombo - B.Sc. in Computer Science - High achievers in the University of Colombo's general computer science program can take their skills to the next level with the selective B.Sc. (Hons) in Computer Science. This four-year honours program allows top performers to specialize further in their chosen field. | more details - https://ucsc.cmb.ac.lk/ug-computer-science/?_gl=1*8fdqfq*_ga*MTgyNzI3OTU5Ni4xNzE2NjE0MzY3*_ga_9NP480MYRZ*MTcxNzA3NjUzOS43LjEuMTcxNzA3NjU1MC40OS4wLjA."
+      ]
+    },
+
+    {
+      "tag": "colombo information systems",
+      "patterns": [
+        "does university of Colombo offer a information systems degree?",
+        "Is there a information systems degree at university of colombo?",
+        "can I study information systems at university of colombo?",
+        "ucsc olombo - information systems degree?",
+        "university of colombo - information systems degree?",
+        "university of colombo information systems",
+        "colombo information systems",
+        "colombo is"
+      ],
+      "responses": [
+        "University of Colombo - B.Sc. in Information Systems - The IS program equips you to become an IT professional who can analyze business problems and design tech solutions. You'll learn to meet client needs, develop applications, and bridge the gap between management and technical staff. Gain skills in areas like process improvement, leveraging new technologies, information security, and enterprise architecture. | more details - https://ucsc.cmb.ac.lk/ug-information-systems/?_gl=1*1cwvx8u*_ga*MTgyNzI3OTU5Ni4xNzE2NjE0MzY3*_ga_9NP480MYRZ*MTcxNzA3NjUzOS43LjEuMTcxNzA3NjU1MC40OS4wLjA.",
+        "University of Colombo - B.Sc. in Information Systems - Become a tech problem-solver with the IS program!  This program equips you to analyze business needs, design solutions, and develop applications. You'll bridge the gap between management and technical teams while mastering skills in process improvement, new tech, information security, and enterprise architecture. | more details -https://ucsc.cmb.ac.lk/ug-information-systems/?_gl=1*1cwvx8u*_ga*MTgyNzI3OTU5Ni4xNzE2NjE0MzY3*_ga_9NP480MYRZ*MTcxNzA3NjUzOS43LjEuMTcxNzA3NjU1MC40OS4wLjA."
+      ]
+    },
+
+    {
+      "tag": "colombo applied data analytics",
+      "patterns": [
+        "does university of Colombo offer a applied data analytics degree?",
+        "Is there a applied data analytics degree at university of colombo?",
+        "can I study applied data analytics at university of colombo?",
+        "ucsc olombo - applied data analytics degree?",
+        "university of colombo - applied data analytics degree?",
+        "university of colombo applied data analytics",
+        "colombo applied data analytics",
+        "colombo ada",
+        "colombo da"
+      ],
+      "responses": [
+        "University of Colombo - B.Sc. in Applied Data Analytics (External) - Level up your data skills! UCSC's external BSc in Applied Data Analytics equips working professionals to analyze, manage, and visualize data.  Using statistics, math, and IT, you'll gain hands-on experience for data-driven decisions. Apply with A-Levels in Math (or equivalent) followed by a screening test and interview. | more details - https://science.cmb.ac.lk/academic/undergraduate-programs/external-degrees/bsc-external-in-applied-data-analytics/?_gl=1*9xsakr*_ga*MTgyNzI3OTU5Ni4xNzE2NjE0MzY3*_ga_9NP480MYRZ*MTcxNzA3NjUzOS43LjEuMTcxNzA3NzY4MS41OS4wLjA.",
+        "University of Colombo - B.Sc. in Applied Data Analytics (External) - Become a data guru with UCSC's external BSc in Data Analytics! Working professionals can develop hands-on skills in data analysis, management, and visualization using statistics, math, and IT. This program prepares you for data-driven decision making (A-Levels Math + interview required). | more details - https://science.cmb.ac.lk/academic/undergraduate-programs/external-degrees/bsc-external-in-applied-data-analytics/?_gl=1*9xsakr*_ga*MTgyNzI3OTU5Ni4xNzE2NjE0MzY3*_ga_9NP480MYRZ*MTcxNzA3NjUzOS43LjEuMTcxNzA3NzY4MS41OS4wLjA."
+      ]
+    },
+
+    {
+      "tag": "colombo bit",
+      "patterns": [
+        "does university of Colombo offer a bit degree?",
+        "Is there a bit degree at university of colombo?",
+        "can I study bit at university of colombo?",
+        "ucsc olombo - bit degree?",
+        "university of colombo - bit degree?",
+        "university of colombo bit",
+        "colombo bit"
+      ],
+      "responses": [
+        "University of Colombo - Bachelor of Information Technology (BIT External) - The University of Colombo offers a Bachelor of Information Technology (BIT) degree program through external study. Designed for working professionals or those who couldn't enter a public IT program, BIT provides a flexible path to an IT qualification. The program follows ACM guidelines and is regularly updated to meet industry needs. Students can access online learning materials and support to complete the program in three years (minimum). | more details - https://www.bit.lk/",
+        "University of Colombo - Bachelor of Information Technology (BIT External) - Earn your IT bachelor's degree on your own terms! The University of Colombo's BIT program offers flexible external study for working professionals or those who missed out on public IT programs. Designed with industry needs in mind (following ACM guidelines), BIT equips you with the skills you need.  Complete the program in three years or more with online resources and support from UCSC. | more details - https://www.bit.lk/"
+      ]
+    },
+
+    {
+      "tag": "moratuwa information technology",
+      "patterns": [
+        "does university of moratuwa offer a information technology degree?",
+        "Is there a information technology degree at university of moratuwa?",
+        "can I study information technology at university of moratuwa?",
+        "university of moratuwa - information technology degree?",
+        "moratuwa - information technology degree?",
+        "university of moratuwa information technology",
+        "moratuwa information technology",
+        "moratuwa it"
+      ],
+      "responses": [
+        "University of Moratuwa - B.Sc. (Hons) in Information Technology - This IT honours program follows an international standard structure with 8 semesters (7 for coursework, 1 for industry training). It requires 135 academic credits and 15 non-academic credits for graduation. At least 80% of the program focuses on core IT and mathematics courses, with the remaining 20% covering complementary areas like communication and management skills. | more details - https://uom.lk/itfac/education/undergraduate/it",
+        "University of Moratuwa - B.Sc. (Hons) in Information Technology - Earn your IT honours degree with a blend of theory and practice! This program follows an international format (8 semesters: 7 coursework, 1 industry training) and requires 135 academic credits. Develop a strong foundation in IT and mathematics (80% of coursework) while gaining valuable skills in communication and management (20%). | more details - https://uom.lk/itfac/education/undergraduate/it"
+      ]
+    },
+
+    {
+      "tag": "moratuwa information technology and management",
+      "patterns": [
+        "does university of moratuwa offer a information technology and management degree?",
+        "Is there a information technology and management degree at university of moratuwa?",
+        "can I study information technology and management at university of moratuwa?",
+        "university of moratuwa - information technology and management degree?",
+        "moratuwa - information technology and management degree?",
+        "university of moratuwa information technology and management",
+        "moratuwa information technology and management",
+        "moratuwa itm"
+      ],
+      "responses": [
+        "University of Moratuwa - B.Sc. (Hons) in Information Technology and Management - ITM program: IT grads with business savvy! This dual-core degree combines IT and management skills, allowing you to design tech solutions for business needs. Analyze markets, develop solutions, manage projects, and contribute to organizational growth. Ideal for students passionate about IT, business, and problem-solving. (Aptitude tests required. See UGC handbook for G.C.E. entry details). | more details - https://uom.lk/itfac/education/undergraduate/it-managemant",
+        "University of Moratuwa - B.Sc. (Hons) in Information Technology and Management - Data whiz meets business guru! The B.Sc. in Data Science & Business Analytics equips you with both technical and analytical skills.  You'll learn to extract insights from data, translate them into business solutions, and drive innovation.  This program is perfect for those passionate about data, business, and problem-solving. (Aptitude tests apply. See university website for G.C.E. requirements). | more details - https://uom.lk/itfac/education/undergraduate/it-managemant"
+      ]
+    },
+
+    {
+      "tag": "moratuwa artificial intelligence",
+      "patterns": [
+        "does university of moratuwa offer a artificial intelligence degree?",
+        "Is there a artificial intelligence degree at university of moratuwa?",
+        "can I study artificial intelligence at university of moratuwa?",
+        "university of moratuwa - artificial intelligence degree?",
+        "moratuwa - artificial intelligence degree?",
+        "university of moratuwa artificial intelligence",
+        "moratuwa artificial intelligence",
+        "moratuwa ai"
+      ],
+      "responses": [
+        "University of Moratuwa - B.Sc. (Hons) in Artificial Intelligence - This AI Bachelors program equips you with everything you need to thrive in the field. Gain a strong foundation in AI theory, hone your problem-solving skills, and learn to design intelligent solutions. You'll also develop communication skills to advocate for AI's benefits to society and even participate in cutting-edge AI research and development. | more details - https://uom.lk/itfac/bachelor-science-honours-artificial-intelligence",
+        "University of Moratuwa - B.Sc. (Hons) in Artificial Intelligence - Master the world of Cybersecurity! Our B.Sc. program equips you with the technical knowledge and practical skills to combat cyber threats. Learn to design secure systems, analyze vulnerabilities, and navigate the ever-evolving cybersecurity landscape. You'll graduate prepared to protect data, defend networks, and become a cybersecurity champion. | more details - https://uom.lk/itfac/bachelor-science-honours-artificial-intelligence"
+      ]
+    },
+
+    {
+      "tag": "moratuwa bit",
+      "patterns": [
+        "does university of moratuwa offer a bit degree?",
+        "Is there a bit degree at university of moratuwa?",
+        "can I study bit at university of moratuwa?",
+        "university of moratuwa - bit degree?",
+        "moratuwa - bit degree?",
+        "university of moratuwa bit",
+        "moratuwa bit"
+      ],
+      "responses": [
+        "University of Moratuwa - Bachelor of Information Technology (BIT External) - Sri Lanka's booming IT sector faces a skilled workforce shortage. To bridge this gap, the University of Moratuwa's BIT External Degree offers a flexible and affordable option for students to gain industry-ready IT qualifications at a lower cost compared to foreign degrees.  This program is a great chance to be part of Sri Lanka's rapidly growing IT industry. | more details - https://bit.uom.lk/bituom/",
+        "University of Moratuwa - Bachelor of Information Technology (BIT External) - Demand for IT professionals in Sri Lanka is soaring! Launch your IT career with the flexible and affordable BIT External Degree from the University of Moratuwa. Gain industry-ready skills at a fraction of the cost of foreign degrees and become part of Sri Lanka's IT boom. Enroll now! | more details - https://bit.uom.lk/bituom/"
+      ]
+    },
+
+    {
+      "tag": "esoft software engineering",
+      "patterns": [
+        "does esoft offer a software engineering degree?",
+        "Is there a software engineering degree at esoft?",
+        "can I study software engineering at esoft?",
+        "esoft - software engineering degree?",
+        "esoft software engineering",
+        "esoft se"
+      ],
+      "responses": [
+        "ESOFT - B.Eng. (Hons) in Software Engineering - Software engineering is a high-demand field offering great careers in Sri Lanka and abroad. This degree equips you with the essentials: core computing, development methods, processes, quality, and emerging tech applications. To follow requires Pearson BTEC HND in computing / IT /IS or BCS diploma or NCC IAD or a recognized Advanced / Higher diploma in IT/ IS. | Next batch start - 2024-09-15 | 75 more seats available | Course Fee - LKR 330,000 + University Fee USD 900 | more details - https://esoft.lk/esoft-courses/beng-hons-in-software-engineering-top-up-london-met-university-uk/",
+        "ESOFT - B.Eng. (Hons) in Software Engineering - Launch your software engineering career in Sri Lanka or abroad! This degree equips you with the fundamentals: computing, development processes, quality assurance, and emerging tech. Entry requires a relevant IT diploma (Pearson BTEC HND, BCS, NCC IAD) and starts September 15th, 2024 (75 seats left!). Course fee: LKR 330,000 + USD 900 university fee. | more details - https://esoft.lk/esoft-courses/beng-hons-in-software-engineering-top-up-london-met-university-uk/"
+      ]
+    },
+
+    {
+      "tag": "esoft computer networking",
+      "patterns": [
+        "does esoft offer a computer networking degree?",
+        "does esoft offer a network engineering degree?",
+        "Is there a computer networking degree at esoft?",
+        "Is there a network engineering degree at esoft?",
+        "can I study computer networking at esoft?",
+        "esoft - computer networking degree?",
+        "esoft computer networking",
+        "esoft network engineering",
+        "esoft cn",
+        "esoft ne"
+      ],
+      "responses": [
+        "ESOFT - B.Eng. (Hons) in Computer Networking - Become a network security pro! This degree equips you to safeguard data by managing network tools and configurations to combat threats and vulnerabilities. To follow requires Pearson BTEC HND in networking / Computing & systems development (Networking pathway) or a recognized Advanced/ Higher diploma in the field of networking. | Next batch start - currently not available | Course Fee - LKR 330,000 + University Fee USD 900 | more details - https://esoft.lk/esoft-courses/beng-hons-in-computer-networking-top-up/",
+        "ESOFT - B.Eng. (Hons) in Computer Networking - Shield data like a pro! Master network security tools and configurations to fight threats. This program requires a relevant IT diploma in networking (Pearson BTEC HND/recognized Advanced/Higher diploma) but the next intake isn't available yet. Course fee: LKR 330,000 + USD 900 university fee. | more details - https://esoft.lk/esoft-courses/beng-hons-in-computer-networking-top-up/"
+      ]
+    },
+
+    {
+      "tag": "esoft computing",
+      "patterns": [
+        "does esoft offer a computing degree?",
+        "Is there a computing degree at esoft?",
+        "can I study computing at esoft?",
+        "esoft - computing degree?",
+        "esoft computing"
+      ],
+      "responses": [
+        "ESOFT - B.Sc. (Hons) in Computing - Master in-demand computing skills with this comprehensive program! Gain a strong foundation in programming, systems analysis, databases, and more, along with hands-on experience in labs. Launch your IT career in various sectors! To follow requires Pearson BTEC HND in computing / IT /IS or BCS diploma or NCC IAD or a recognized Advanced / Higher diploma in IT / IS. | Next batch start - 2024-09-15 | 44 more seats available | Course Fee - LKR 330,000 + University Fee USD 900 | more details - https://esoft.lk/esoft-courses/bsc-hons-in-computing-top-up-london-met-university-uk/",
+        "ESOFT - B.Sc. (Hons) in Computing - Up your IT game with this comprehensive program! Learn in-demand skills like programming, databases, and systems analysis with hands-on labs. Launch your tech career! Apply now with a relevant IT diploma (Pearson BTEC HND, BCS, NCC IAD). Starts September 15th, 2024 (44 seats left). Fee: LKR 330,000 + USD 900 university fee. | more details - https://esoft.lk/esoft-courses/bsc-hons-in-computing-top-up-london-met-university-uk/"
+      ]
+    },
+
+    {
+      "tag": "esoft data science",
+      "patterns": [
+        "does esoft offer a data science degree?",
+        "Is there a data science degree at esoft?",
+        "can I study data science at esoft?",
+        "esoft - data science degree?",
+        "esoft data science",
+        "esoft ds"
+      ],
+      "responses": [
+        "ESOFT - B.Sc. (Hons) in Data Science - To apply, You'll need good grades in English and Math, plus a relevant qualification (like a BTEC diploma) or at least 88 UCAS points. Relevant experience may also be considered. Prior qualifications can count towards your course. | Next batch start - 2024-09-15 | 9 more seats available | Course Fee - LKR 330,000 + University Fee USD 900 | more details - https://esoft.lk/esoft-courses/bsc-hons-in-data-science-top-up-london-met-university-uk/",
+        "ESOFT - B.Sc. (Hons) in Data Science - Applications open now! Secure your spot with good grades in English and Math, a relevant IT qualification (like a BTEC diploma), or at least 88 UCAS points. Prior experience may be considered, and past qualifications can count towards your course. The next batch starts September 15th, 2024, with only 9 seats remaining. The fee is LKR 330,000 + USD 900 university fee. | more details - https://esoft.lk/esoft-courses/bsc-hons-in-data-science-top-up-london-met-university-uk/"
+      ]
+    },
+
+    {
+      "tag": "esoft cyber security",
+      "patterns": [
+        "does esoft offer a cyber security degree?",
+        "Is there a cyber security degree at esoft?",
+        "can I study cyber security at esoft?",
+        "esoft - cyber security degree?",
+        "esoft cyber security"
+      ],
+      "responses": [
+        "ESOFT - B.Sc. (Hons) in Cyber Security - This cyber security and digital forensics degree aligns with industry certifications like CISSP, SSCP, and ACE. You'll have the chance to earn these certifications during your studies, giving you a professional edge upon graduation. The degree aims to equip you for a successful career in cyber security and forensics. Applicants must possess a credit pass in English from GCE O/L or A/L (or equivalent), along with a relevant IT diploma like Pearson BTEC HND in Computing/IT/IS, a BCS Diploma, or NCC IAD. | Next batch start - 2024-09-15 | 11 more seats available | Course Fee - LKR 430,000 + University Fee USD 900 | more details - https://esoft.lk/esoft-courses/bsc-hons-in-cyber-security-digital-forensics-top-up-kingston-university/",
+        "ESOFT - B.Sc. (Hons) in Cyber Security - Earn industry-recognized certifications in CISSP, SSCP, and ACE while pursuing your B.Sc. (Hons) in Cyber Security and Digital Forensics. This program equips you for a flourishing career in cyber security, with a focus on practical skills and certifications to set you apart upon graduation. Apply now if you have a credit pass in English from GCE O/L or A/L (or equivalent) and a relevant IT diploma (Pearson BTEC HND in Computing/IT/IS, BCS Diploma, or NCC IAD). Seats are filling fast - next intake starts September 15th, 2024 (only 11 left!).  The fee is LKR 430,000 + USD 900 university fee. | more details - https://esoft.lk/esoft-courses/bsc-hons-in-cyber-security-digital-forensics-top-up-kingston-university/"
+      ]
+    },
+
+    {
+      "tag": "esoft cloud security",
+      "patterns": [
+        "does esoft offer a cloud security degree?",
+        "Is there a cloud security degree at esoft?",
+        "can I study cloud security at esoft?",
+        "esoft - cloud security degree?",
+        "esoft cloud security"
+      ],
+      "responses": [
+        "ESOFT - B.Eng. (Hons) in Cloud Security - Become a cloud and network security expert! This B.Eng. (Hons) program addresses the growing demand for skills in these areas. You'll learn the latest technologies from Cisco and Palo Alto, including CCNA and security-focused certifications, to protect critical infrastructure. | To enroll in this program, you'll need a minimum of GCSE/O-Level English & Math (C or above), a relevant Level 5 qualification (like BTEC HND), and a Cisco CCNA certification (or equivalent). | Next batch start - 2024-09-15 | 56 more seats available | Course Fee - LKR 330,000 + University Fee USD 900 | more details - https://esoft.lk/esoft-courses/beng-hons-computer-networking-and-cloud-security-top-up-london-met-university-uk/",
+        "ESOFT - B.Eng. (Hons) in Cloud Security - Master in-demand cloud and network security skills! This B.Eng. (Hons) program equips you with the latest Cisco and Palo Alto technologies (CCNA, security certs) to safeguard critical infrastructure.  Apply now with a minimum of GCSE/O-Level English & Math (C+), relevant Level 5 qualification (BTEC HND preferred), and a Cisco CCNA certification (or equivalent). The next intake starts September 15th, 2024 (56 seats remaining). Fee: LKR 330,000 + USD 900 university fee. | more details - https://esoft.lk/esoft-courses/beng-hons-computer-networking-and-cloud-security-top-up-london-met-university-uk/"
+      ]
+    },
+
+    {
+      "tag": "esoft web development",
+      "patterns": [
+        "does esoft offer a web development degree?",
+        "does esoft offer a mobile app development degree?",
+        "Is there a web development degree at esoft?",
+        "Is there a mobile app development degree at esoft?",
+        "can I study web development at esoft?",
+        "esoft - web development degree?",
+        "esoft web development",
+        "esoft mobile app development",
+        "esoft wd",
+        "esoft mad"
+      ],
+      "responses": [
+        "ESOFT - B.Sc. (Hons) in Web & Mobile App Development - Web and Mobile App Development degree is revamped degree for aspiring developers to gain advanced web and mobile app development skills. This course offers a core in Mobile App Development and Software practices, with electives in Programming Patterns, Data Modeling, Cyber Security, and Entrepreneurship. To follow requires GCE O/L or A/L English pass + a relevant IT diploma (Pearson BTEC HND, BCS, NCC IAD). | Next batch start - 2024-09-15 | 5 more seats available | Course Fee - LKR 430,000 + University Fee USD 900 | more details - https://esoft.lk/esoft-courses/bsc-hons-computing-science-in-web-mobile-app-development-top-up-kingston-university/",
+        "ESOFT - B.Sc. (Hons) in Web & Mobile App Development - Level up your web and mobile app development skills with ESOFT's revamped B.Sc. (Hons) degree program! Designed for aspiring developers, this course provides a strong foundation in mobile app development and software practices. Plus, you can choose electives to specialize in areas like programming patterns, data modeling, cybersecurity, or even entrepreneurship. Get started if you have a GCE O/L or A/L pass in English and a relevant IT diploma (Pearson BTEC HND, BCS, NCC IAD). Applications are now open for the September 15th, 2024 intake with only 5 seats remaining! The program fee is LKR 430,000 + USD 900 university fee. | more details - https://esoft.lk/esoft-courses/bsc-hons-computing-science-in-web-mobile-app-development-top-up-kingston-university/"
+      ]
+    },
+
+    {
+      "tag": "esoft bit",
+      "patterns": [
+        "does esoft offer a bit degree?",
+        "Is there a bit degree at esoft?",
+        "can I study bit at esoft?",
+        "esoft - bit degree?",
+        "esoft bit"
+      ],
+      "responses": [
+        "ESOFT - Bachelor of Information Technology (BIT External) - This degree prepares you for the ICT industry. Aligned with top computing societies (ACM, IEEE, etc.) and UGC guidelines, this program offers a strong foundation and industry-recognized qualifications. To follow requires GCE O/L or A/L with English pass. | Next batch start - currently not available | Course Fee - LKR 1,180,000 | more details - https://esoft.lk/esoft-courses/bachelor-of-information-technology-honours-degree-bit-hons-degree-esoft-metro-campus/",
+        "ESOFT - Bachelor of Information Technology (BIT External) - Launch your ICT career with ESOFT's B.Sc. (Hons) degree! This program aligns with top computing societies (ACM, IEEE) and UGC guidelines, providing a strong foundation and industry-recognized qualifications. A GCE O/L or A/L pass with English is required. The next intake is not currently available. The course fee is LKR 1,180,000 | more details - https://esoft.lk/esoft-courses/bachelor-of-information-technology-honours-degree-bit-hons-degree-esoft-metro-campus/"
+      ]
+    },
+
+    {
+      "tag": "sliit software engineering",
+      "patterns": [
+        "does sliit offer a software engineering degree?",
+        "Is there a software engineering degree at sliit?",
+        "can I study software engineering at sliit?",
+        "sliit - software engineering degree?",
+        "sliit software engineering",
+        "sliit se"
+      ],
+      "responses": [
+        "SLIIT - B.Sc. (Hons) in Software Engineering - Become a software engineer! SLIIT's program equips you with the skills you need using a blend of computer science, project management, and other relevant fields.  Minimum entry requirements include 3 S passes in G.C.E A/L (Sri Lanka) or 3 D passes (Cambridge/Edexcel) and passing an aptitude test. The program fee is Rs. 330,000 for the first two semesters and Rs. 350,000 for subsequent semesters (all-inclusive). | more details - https://www.sliit.lk/computing/programmes/software-engineering-degree/",
+        "SLIIT - B.Sc. (Hons) in Software Engineering - Launch your software engineering career at SLIIT! This program equips you with the skills you need, combining computer science, project management, and other in-demand areas.  Qualify with 3 S passes in G.C.E A/L (Sri Lanka) or 3 D passes (Cambridge/Edexcel) and an aptitude test. The fee is Rs. 330,000 for semesters 1 & 2, Rs. 350,000 thereafter (all-inclusive). | more details - https://www.sliit.lk/computing/programmes/software-engineering-degree/"
+      ]
+    },
+
+    {
+      "tag": "sliit network engineering",
+      "patterns": [
+        "does sliit offer a network engineering degree?",
+        "Is there a network engineering degree at sliit?",
+        "can I study network engineering at sliit?",
+        "sliit - network engineering degree?",
+        "sliit network engineering",
+        "sliit ne"
+      ],
+      "responses": [
+        "SLIIT - B.Sc. (Hons) in Network Engineering - SLIIT's Network Systems program makes you a pro! Design, manage, and maintain modern networks. Master hardware, networking, and more.  3 'S' passes in G.C.E A/L (SL) with Physics & Combined Maths OR 3 'D' passes (Cambridge/Edexcel) with Physics & Maths required. Pass the SLIIT aptitude test. Fees: Rs. 330,000 (Yr 1 & 2 Sem 1), Rs. 350,000 (onwards). (All-inclusive). | more details - https://www.sliit.lk/computing/programmes/computer-systems-network-engineering-degree/",
+        "SLIIT - B.Sc. (Hons) in Network Engineering - Unleash your inner data scientist at SLIIT!  This program transforms you into a data wiz with skills in analysis, machine learning, and more.  Turn data into solutions!  (Minimum 3 'S' passes in G.C.E A/L (Sri Lanka) with Maths/Stats OR 3 'D' passes (Cambridge/Edexcel) required. Aptitude test mandatory. Fees: Rs. 330,000 (Yr 1 & 2 Sem 1), Rs. 350,000 (onwards). All-inclusive). | more details - https://www.sliit.lk/computing/programmes/computer-systems-network-engineering-degree/"
+      ]
+    },
+
+    {
+      "tag": "sliit data science",
+      "patterns": [
+        "does sliit offer a data science degree?",
+        "Is there a data science degree at sliit?",
+        "can I study data science at sliit?",
+        "sliit - data science degree?",
+        "sliit data science",
+        "sliit ds"
+      ],
+      "responses": [
+        "SLIIT - B.Sc (Hons) in Data Science - SLIIT's Data Science program builds data analysis skills from the ground up. You'll master the essentials of computer science, statistics, and applied mathematics, all with real-world applications.  Prepare for a career in data pipelines, analysis, and storytelling.  (3 'S' passes in G.C.E A/L (SL) OR 3 'D' passes (Cambridge/Edexcel) required, plus aptitude test. Fees: Rs. 330,000 (Yr 1 & 2 Sem 1), Rs. 350,000 (onwards). All-inclusive). | more details - https://www.sliit.lk/computing/programmes/data-science-degree/",
+        "SLIIT - B.Sc (Hons) in Data Science - Become a data guru at SLIIT! This program equips you with data analysis skills in CS, statistics, and applied math, all focused on real-world problem-solving.  Land data pipeline, analysis, or storytelling jobs. (Min: 3 'S' G.C.E. A/Ls (SL) or 3 'D' (Cambridge/Edexcel) + aptitude test. Rs. 330,000/Yr 1 & 2 Sem 1, Rs. 350,000 onwards. All-inclusive). | more details - https://www.sliit.lk/computing/programmes/data-science-degree/"
+      ]
+    },
+
+    {
+      "tag": "sliit cyber security",
+      "patterns": [
+        "does sliit offer a cyber security degree?",
+        "Is there a cyber security degree at sliit?",
+        "can I study cyber security at sliit?",
+        "sliit - cyber security degree?",
+        "sliit cyber security"
+      ],
+      "responses": [
+        "SLIIT - B.Sc. (Hons) in Cyber Security - Become a cyber defender at SLIIT!  This program launches your information security career. Protect computer networks & info systems. Min: 3 'S' G.C.E. A/Ls (SL) or 3 'D' (Cambridge/Edexcel) + aptitude test. Rs.330,000/Yr 1 & 2 Sem 1, Rs.350,000 onwards (all-inclusive). | more details - https://www.sliit.lk/computing/programmes/cyber-security-degree/",
+        "SLIIT - B.Sc. (Hons) in Cyber Security - Become a data guardian at SLIIT! Our Cybersecurity program equips you to defend data and information systems.  Learn to combat cyber threats and keep networks secure. Minimum entry requirements: 3 S passes in G.C.E A/L (Sri Lanka) or 3 D passes (Cambridge/Edexcel) and an aptitude test. Fee: Rs. 330,000 (up to year 2 sem 1), Rs. 350,000 (from year 2 sem 2 onwards). (All-inclusive). | more details - https://www.sliit.lk/computing/programmes/cyber-security-degree/"
+      ]
+    },
+
+    {
+      "tag": "nsbm software engineering",
+      "patterns": [
+        "does nsbm offer a software engineering degree?",
+        "Is there a software engineering degree at nsbm?",
+        "can I study software engineering at nsbm?",
+        "nsbm - software engineering degree?",
+        "nsbm software engineering",
+        "nsbm se"
+      ],
+      "responses": [
+        "NSBM - B.Sc. (Hons) in Software Engineering - Earn your UGC-recognized 3-year honors degree! Learn from world-class academics via a 'flying faculty' program and gain access to LinkedIn Learning, a vast library, and an online learning platform for an interactive learning experience. | more details - https://www.nsbm.ac.lk/course/bsc-hons-software-engineering/",
+        "NSBM - B.Sc. (Hons) in Software Engineering - Level up your skills with our fast-track 1-year certificate program! Get industry-ready in just 12 months and gain valuable knowledge from leading experts. Our program also includes access to LinkedIn Learning, a comprehensive online library, and an interactive learning platform to boost your success. Enroll now! | more details - https://www.nsbm.ac.lk/course/bsc-hons-software-engineering/"
+      ]
+    },
+
+    {
+      "tag": "nsbm computer networks",
+      "patterns": [
+        "does nsbm offer a computer networks degree?",
+        "does nsbm offer a network engineering degree?",
+        "Is there a computer networks degree at nsbm?",
+        "Is there a network engineering degree at nsbm?",
+        "can I study computer networks at nsbm?",
+        "nsbm - computer networks degree?",
+        "nsbm computer networks",
+        "nsbm network engineering",
+        "nsbm cn",
+        "nsbm ne"
+      ],
+      "responses": [
+        "NSBM - B.Sc. (Hons) in Computer Networks - 3-year UGC honors degree with a twist! Learn from visiting international faculty (flying faculty) in your final year. Plus, gain access to LinkedIn Learning, a vast library, and an interactive online platform for a dynamic learning experience. | more details - https://www.nsbm.ac.lk/course/bsc-honours-in-computer-networks/",
+        "NSBM - B.Sc. (Hons) in Computer Networks - Earn your bachelor's degree with a global touch! This 3-year UGC-recognized honors program features visiting international professors in your final year. Plus, you'll get access to LinkedIn Learning, a massive online library, and an interactive platform for an engaging learning experience. | more details - https://www.nsbm.ac.lk/course/bsc-honours-in-computer-networks/"
+      ]
+    },
+
+    {
+      "tag": "nsbm data science",
+      "patterns": [
+        "does nsbm offer a data science degree?",
+        "Is there a data science degree at nsbm?",
+        "can I study data science at nsbm?",
+        "nsbm - data science degree?",
+        "nsbm data science",
+        "nsbm ds"
+      ],
+      "responses": [
+        "NSBM - B.Sc (Hons) in Data Science - Strong foundation in Data Science! Learn cutting-edge AI, big data, and machine learning. Program combines Sri Lankan industry needs with global trends. Taught by experts - local and international. Strong industry connections for practical learning. Great prep for postgraduate studies in Data Science fields. | more details - https://www.nsbm.ac.lk/course/bsc-hons-data-science-plymouth/",
+        "NSBM - B.Sc (Hons) in Data Science - Dive deep into Data Science! Master the fundamentals and latest advancements in AI, big data, and machine learning. This program bridges Sri Lankan industry needs with global trends, featuring expert instructors from both Sri Lanka and abroad. Gain practical experience through industry connections and prepare for postgraduate studies in Data Science fields. Enroll now! | more details - https://www.nsbm.ac.lk/course/bsc-hons-data-science-plymouth/"
+      ]
+    },
+
+    {
+      "tag": "iit software engineering",
+      "patterns": [
+        "does iit offer a software engineering degree?",
+        "Is there a software engineering degree at iit?",
+        "can I study software engineering at iit?",
+        "iit - software engineering degree?",
+        "iit software engineering",
+        "iit se"
+      ],
+      "responses": [
+        "IIT - B.Eng. (Hons) in Software Engineering - Become a software engineer! Learn in-demand skills: object-oriented programming, databases, mobile/web app dev, security, and more. Transfer to BSc (Hons) Computer Science after year 1. (Starts September 2024). | more details - https://www.iit.ac.lk/course/beng-software-engineering/",
+        "IIT - B.Eng. (Hons) in Software Engineering - Level up to software pro! Master OOP, databases, mobile/web dev, security, and more.  Flexible option to transfer to BSc (Hons) Computer Science after year 1. Starts September 2024! | more details - https://www.iit.ac.lk/course/beng-software-engineering/"
+      ]
+    },
+
+    {
+      "tag": "iit computer science",
+      "patterns": [
+        "does iit offer a computer science degree?",
+        "Is there a computer science degree at iit?",
+        "can I study computer science at iit?",
+        "iit - computer science degree?",
+        "iit computer science",
+        "iit cs"
+      ],
+      "responses": [
+        "IIT - B.Sc. (Hons) in Computer Science - Design your CS degree! This program lets you choose your path in computer science - from mobile apps to game development.  Build a skillset in various areas and specialize in what interests you. Starts September 2024! | more details - https://www.iit.ac.lk/course/bsc-computer-science/",
+        "IIT - B.Sc. (Hons) in Computer Science - Craft your CS future! This program lets you personalize your learning in computer science. Explore mobile apps, game dev, and more!  Build a diverse skillset and specialize in your passion. Starts September 2024! | more details - https://www.iit.ac.lk/course/bsc-computer-science/"
+      ]
+    },
+
+    {
+      "tag": "iit artificial intelligence",
+      "patterns": [
+        "does iit offer a artificial intelligence degree?",
+        "Is there a artificial intelligence degree at iit?",
+        "can I study artificial intelligence at iit?",
+        "iit - artificial intelligence degree?",
+        "iit artificial intelligence",
+        "iit ai"
+      ],
+      "responses": [
+        "IIT - B.Sc. (Hons) in Artificial Intelligence - AI & Data Science Degree (UK): Joint program by Sri Lanka's IIT and Robert Gordon University. Gain in-demand skills for a career in AI and Data Science. Learn practical applications of cutting-edge technologies. Starts September 2024! | more details - https://www.iit.ac.lk/course/bsc-artificial-intelligence-and-data-science/",
+        "IIT - B.Sc. (Hons) in Artificial Intelligence - Master AI & Data Science (UK Degree)! This joint program by IIT (Sri Lanka) and Robert Gordon University equips you with the latest skills for a booming career. Learn practical applications of cutting-edge tech.  Starts September 2024! | more details - https://www.iit.ac.lk/course/bsc-artificial-intelligence-and-data-science/"
+      ]
+    },
+
+    {
+      "tag": "icbt software engineering",
+      "patterns": [
+        "does icbt offer a software engineering degree?",
+        "Is there a software engineering degree at icbt?",
+        "can I study software engineering at icbt?",
+        "icbt - software engineering degree?",
+        "icbt software engineering",
+        "icbt se"
+      ],
+      "responses": [
+        "ICBT - B.Sc. (Hons) in Software Engineering - -UK Bachelor's degree in 3 years! Earn your British honors degree at ICBT Campus with Cardiff Metropolitan University.  Start now with just 3 G.C.E. A/L passes (pending results accepted). | more details - https://icbt.lk/courses/bsc-hons-software-engineering-2/",
+        "ICBT - B.Sc. (Hons) in Software Engineering - Fast-track your UK degree! Get your British honors qualification in just 3 years at ICBT Campus with Cardiff Metropolitan University. Apply now with only 3 G.C.E. A/L passes (pending results OK). | more details - https://icbt.lk/courses/bsc-hons-software-engineering-2/"
+      ]
+    },
+
+    {
+      "tag": "icbt network engineering",
+      "patterns": [
+        "does icbt offer a network engineering degree?",
+        "Is there a network engineering degree at icbt?",
+        "can I study network engineering at icbt?",
+        "icbt - network engineering degree?",
+        "icbt network engineering",
+        "icbt ne"
+      ],
+      "responses": [
+        "ICBT - B.Sc. (Hons) in Network Engineering - This program strengthens your IT skills! Modules cover research methods, product development, advanced cybersecurity, routing, telecoms, and IT service management.  Entry requires a relevant Higher Diploma or equivalent qualification. | more details - https://icbt.lk/courses/bsc-hons-network-systems-engineering/",
+        "ICBT - B.Sc. (Hons) in Network Engineering - Level up your IT expertise!  This program hones your skills in research, product development, cybersecurity, networking, and IT service management.  Designed for those with a Higher Diploma (HD) or equivalent in IT fields. | more details - https://icbt.lk/courses/bsc-hons-network-systems-engineering/"
+      ]
+    },
+
+    {
+      "tag": "icbt data science",
+      "patterns": [
+        "does icbt offer a data science degree?",
+        "Is there a data science degree at icbt?",
+        "can I study data science at icbt?",
+        "icbt - data science degree?",
+        "icbt data science",
+        "icbt ds"
+      ],
+      "responses": [
+        "ICBT - B.Sc (Hons) in Data Science - Master in-demand tech! This program equips you with expertise in blockchain, data visualization, AI, and business intelligence.  Designed for graduates with IT or software engineering diplomas. | more details - https://icbt.lk/courses/bsc-hons-data-science/",
+        "ICBT - B.Sc (Hons) in Data Science - Unleash your inner tech guru! This program makes you a master of hot topics like blockchain, data visualization, and AI. Plus, you'll gain business intelligence skills. Ideal for IT or software engineering diploma holders. | more details - https://icbt.lk/courses/bsc-hons-data-science/"
+
+      ]
+    },
+
+    {
+      "tag": "payment",
+      "patterns": [
+        "Can I pay with credit cards?",
+        "Can I pay with Mastercard?",
+        "Can I pay with cash?",
+        "Can I pay online",
+        "Are you cash only?",
+        "online payments available?",
+        "online payment",
+        "credit cards",
+        "Mastercard",
+        "cash payments",
+        "payment option",
+        "payment"
+      ],
+      "responses": [
+        "You can pay with cash or VISA and Mastercard. (online or in-university)",
+        "Accept most major credit cards. (online or in-university)",
+        "Cash, Visa & Mastercard accepted. (online or in-university)",
+        "They take all major cards and cash. (online or in-university)",
+        "Multiple payment options available. (Cash, Visa & Mastercard)",
+        "You can pay online or in-university. (Cash, Visa & Mastercard)",
+        "Secure payment options available. (Cash, Visa & Mastercard)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EDU Colombo</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+                <div class="row1">
+                    <a href="http://127.0.0.1:5000/" class="logo"><img src="{{ url_for('static', filename='images/educ-logo.png') }}"/></a>
+                    <ul>
+                        <li class="active"><a href="http://127.0.0.1:5000/"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="http://127.0.0.1:5000/"><i class="fa fa-sort-alpha-asc"></i> Rankings</a></li>
+                        <li><a href="http://127.0.0.1:5000/"><i class="fa fa-sort-alpha-asc"></i> University</a></li>
+                        <li><a href="http://127.0.0.1:5000/"><i class="fa fa-sort-alpha-asc"></i> Programs</a></li>
+                        <li><a href="http://127.0.0.1:5000/"><i class="fa fa-user-o"></i> About</a></li>
+                        <li><a href="http://127.0.0.1:5000/"><i class="fa fa-phone"></i> Contact</a></li>
+                    </ul>
+                </div>
+        </div>
+    </header>
+    
+    <section class="backside-header"></section>
+        
+    <section class="paragraph-1">
+        <div class="paragraph-header-1">
+            <p><br><br><b>Find your Dream University @ Colombo</b></p>
+        </div>
+        <div class="paragraph-body-1">
+            <p><br>We're here to support you through all stages of the university journey; whether its researching institutions, navigating admissions or submitting your application.</p>
+            <p><br><b>Find the right course for you</b></p>
+            <p>Our course matching tool features thousands of programmes and uses your personal study preferences to find the right course for you.</p>
+            <p><br><b>Easily compare universities with EDU rankings</b></p>
+            <p>Filter our rankings by region or subject to compare university performance in factors that matter to you including reputation, employability and sustainability.</p>
+            <p><br><b>Personalized advice and support with your university application</b></p>
+            <p>Our friendly EDU counsellors have helped to submit over 13,000 applications and will personally guide you through to enrolment on your chosen course.</p>
+            <p><br><b><u>Meet universities in person</u></b></p>
+            <p>Meet university representatives and get your questions answered in person.</p>
+            <p><br><b><u>Match and connect with shortlisted universities</u></b></p>
+            <p>Create connections and finalize your shortlist by speaking directly with staff at your matched universities.</p>
+            <p><br><b><u>Looking for financial support?</u></b></p>
+            <p>Find out more about the US$ 1 million available through EDU and partner scholarships.</p>
+            <p><br><b><u>Need more advice on where to study?</u></b></p>
+            <p>Learn more about student experiences at universities and get advice on applications, finding accommodation and fun things to do once you've arrived.<br><br></p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="row2">
+                <div class="column-1">
+                    <p><a href="http://127.0.0.1:5000/"><i class="fa fa-home"></i>&nbsp;Home</a></p>
+                    <p><a href="http://127.0.0.1:5000/"><i class="fa fa-user-circle"></i>&nbsp;About EDUC</a></p>
+                    <p><a href="http://127.0.0.1:5000/"><i class="fa fa-phone"></i>&nbsp;Contact EDUC</a></p>
+                    <p><a href="http://127.0.0.1:5000/"><i class="fa fa-user-secret"></i>&nbsp;Privacy Policy</a></p>
+                    <p><a href="http://127.0.0.1:5000/"><i class="fa fa-check-square"></i>&nbsp;Terms of Use</a></p>
+                </div>
+                <div class="column-2">
+                    <p><b><i><i class="fa fa-copyright"></i> EDUC 2024 All Rights Reserved</i></b></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- CHAT BOX -->
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="{{ url_for('static', filename='images/chat_agent.png') }}"/>
+                </div>
+                <div class="chatbox__content--header">
+                    <p class="chatbox__heading--header">Hello there 👋</p>
+                    <p class="chatbox__description--header">I'm EDUbot, your guide to navigating the Best 'Universities' and IT 'Degrees' in the Colombo District. How can I help you?
+                    </p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <b><button class="chatbox__send--footer send__button">Send</button></b>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chat-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+</body>
+
+<script>$SCRIPT_ROOT = {{ request.script_root|tojson }};</script>
+<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</html>
